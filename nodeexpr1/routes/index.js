@@ -5,7 +5,7 @@ var router = express.Router();
 // http://localhost:3000/
 
 router.get('/', function(req, res, next) {
-  res.render('index', { title: '안녕nodejs' });
+  res.render('index', { title: '안녕 express' });
 });
 
 module.exports = router;
